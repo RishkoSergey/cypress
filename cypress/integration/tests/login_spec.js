@@ -1,6 +1,5 @@
-require('dotenv').config();
-const email = process.env.TEST_EMAIL;
-const password = process.env.TEST_PASSWORD;
+const email = 'testuser@gmail.com';
+const password = '12345';
 
 describe('The Login Page', function () {
   it('successfully logged in', function () {
