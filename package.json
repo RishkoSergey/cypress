@@ -1,0 +1,12 @@
+{
+  "name": "cypress",
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^3.6.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
