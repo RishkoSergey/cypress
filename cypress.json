@@ -1,3 +1,5 @@
 {
-  "baseUrl": "https://dev.profimap.ru"
+  "requestTimeout": 10000,
+  "chromeWebSecurity": false,
+  "video": false
 }
