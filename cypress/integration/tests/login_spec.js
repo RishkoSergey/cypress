@@ -1,8 +1,8 @@
-const email = 'testuser@gmail.com';
-const password = '12345';
-
 describe('The Login Page', function () {
   it('successfully logged in', function () {
+    const email = Cypress.config('testEmail');
+    const password = Cypress.config('testPassword');
+
     cy.visit('/'); // change URL to match your dev URL
     cy.url().should('include', '/login');
     cy.get('button[type="submit"]').should('be.disabled');
